@@ -1,4 +1,4 @@
-# Title
+# Atelier 3
 
 Exercices are inside of the [tp.pdf](./assets/tp.pdf) file.
 

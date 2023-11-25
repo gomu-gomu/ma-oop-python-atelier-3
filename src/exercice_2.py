@@ -1,15 +1,19 @@
-class Voiture():
-  def __init__(self) -> None:
-    self.marque = 'BMW'
+import datetime
+
+class Animal():
+  def __init__(self, race, anne_naissance) -> None:
+    self.race= race
+    self.anne_naisance = anne_naissance
   
-  def afficher_marque(self):
-    print('Marque:', self.marque)
+  def calculer_age(self):
+    return datetime.date.today().year - self.anne_naisance
 
 def main():
   print('Exercice 2:')
 
-  voiture_1 = Voiture()
-  voiture_1.afficher_marque()
+  chien = Animal('Bulldog', 2017)
+  age = chien.calculer_age()
+  print(f'le chien est {age} an(s)')
 
 if __name__ == '__main__':
   main()

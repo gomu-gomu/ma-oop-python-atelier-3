@@ -9,5 +9,11 @@ Source code is under the [src](./src/) folder
 Solutions can be run via:
 
 ```sh
-runner src/file
+python3 src/__init__.py
+```
+
+Individual files can be run by name, for example:
+
+```sh
+python src/exercice_1.py
 ```
